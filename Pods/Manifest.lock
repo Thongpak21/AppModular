@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Auth (0.1.0):
+    - Alamofire
+  - Home (0.1.0)
+
+DEPENDENCIES:
+  - Auth (from `Auth/`)
+  - Home (from `Home/`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  Auth:
+    :path: Auth/
+  Home:
+    :path: Home/
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Auth: 885c86fd918fe28759dd7c33e228f465f9353a17
+  Home: 84dd4baef09a9d0b85b2f13d9df31c715cdce168
+
+PODFILE CHECKSUM: 741724017db3031cc9b47679ab22000b71d5c69b
+
+COCOAPODS: 1.10.0

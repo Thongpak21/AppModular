@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sDX-YI-18B">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Auth View Controller-->
+        <scene sceneID="ZRk-fn-g76">
+            <objects>
+                <viewController storyboardIdentifier="AuthViewController" id="sDX-YI-18B" customClass="AuthViewController" customModule="Auth" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dqc-dG-bbX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xiI-IS-2B0">
+                                <rect key="frame" x="50" y="244" width="314" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="S1M-GK-GaK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="idI-kl-yy4">
+                                <rect key="frame" x="50" y="308" width="314" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dMN-d6-Xef"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2zg-Oc-zcy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="idI-kl-yy4" firstAttribute="trailing" secondItem="xiI-IS-2B0" secondAttribute="trailing" id="P1K-WZ-Sbc"/>
+                            <constraint firstItem="idI-kl-yy4" firstAttribute="top" secondItem="xiI-IS-2B0" secondAttribute="bottom" constant="24" id="bGD-CJ-Y62"/>
+                            <constraint firstItem="xiI-IS-2B0" firstAttribute="leading" secondItem="2zg-Oc-zcy" secondAttribute="leading" constant="50" id="cj9-Yi-0W5"/>
+                            <constraint firstItem="2zg-Oc-zcy" firstAttribute="trailing" secondItem="xiI-IS-2B0" secondAttribute="trailing" constant="50" id="d2O-1H-bVf"/>
+                            <constraint firstItem="idI-kl-yy4" firstAttribute="leading" secondItem="xiI-IS-2B0" secondAttribute="leading" id="rqs-gZ-wmw"/>
+                            <constraint firstItem="xiI-IS-2B0" firstAttribute="top" secondItem="2zg-Oc-zcy" secondAttribute="top" constant="200" id="ycb-aU-bix"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yns-wy-Ukz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="281" y="156"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
