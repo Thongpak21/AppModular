@@ -1,0 +1,27 @@
+{
+  "name": "Auth",
+  "version": "0.1.0",
+  "summary": "A short description of AuthModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Thongpak21",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Thongpak21": "thongpak.p@lmwn.com"
+  },
+  "source": {
+    "git": "https://github.com/Thongpak21/AuthModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Auth/Scene/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Auth (0.1.0)
+
+DEPENDENCIES:
+  - Auth (from `../Auth/`)
+
+EXTERNAL SOURCES:
+  Auth:
+    :path: "../Auth/"
+
+SPEC CHECKSUMS:
+  Auth: b2acbe04b407c5a280dfea9395ff775159718a0d
+
+PODFILE CHECKSUM: 9c948698a1236b51834b3919f4e814892e359bb8
+
+COCOAPODS: 1.10.0
